@@ -37,10 +37,3 @@
   border-radius: 3rem;
   background-color: #0d8817;
 }
-
-.nav button:hover {
-  transform: scale(1.02);
-  transition: all 1s;
-  cursor: pointer;
-  background-color: #0d8817ca;
-}

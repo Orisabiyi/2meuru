@@ -11,6 +11,7 @@ function Header() {
         <p>
           Track Performance | Monitor Activities | Manage Payments Effortlessly
         </p>
+        <button>Learn More</button>
       </div>
       <div></div>
     </header>
