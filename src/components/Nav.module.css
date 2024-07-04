@@ -2,12 +2,12 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 3rem 6rem;
 
-  position: relative;
+  color: #0d8817;
+  padding: 3rem 6rem;
 }
 
-.nav::after {
+/* .nav::after {
   content: "";
   position: absolute;
   bottom: 0;
@@ -15,9 +15,9 @@
   transform: translateX(-50%);
 
   width: 90%;
-  height: 0.2rem;
-  background-color: #000;
-}
+  height: 0.17rem;
+  background-color: #0d8817;
+} */
 
 .nav h2 {
   font-weight: 400;
