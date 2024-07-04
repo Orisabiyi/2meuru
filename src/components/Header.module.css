@@ -1,0 +1,44 @@
+.header {
+  min-height: 80vh;
+  padding: 3rem 6rem;
+
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.header div {
+  flex: 1;
+}
+
+.header div:nth-of-type(1) {
+  align-self: center;
+}
+
+.header div:nth-of-type(2) {
+  height: 100%;
+}
+
+.header h1 {
+  margin-bottom: 1rem;
+}
+
+.header span {
+  display: block;
+  text-transform: uppercase;
+}
+
+.header span:nth-of-type(1) {
+  font-size: 6rem;
+  color: #0b7114;
+}
+
+.header span:nth-of-type(2) {
+  font-size: 3.6rem;
+}
+
+.header p {
+  font-size: 1.63rem;
+  letter-spacing: 1px;
+}
