@@ -1,5 +1,11 @@
+import Nav from "../components/Nav";
+
 function Homepage() {
-  return <div></div>;
+  return (
+    <>
+      <Nav />
+    </>
+  );
 }
 
 export default Homepage;
