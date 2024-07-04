@@ -1,6 +1,8 @@
+import styles from "./Header.module.css";
+
 function Header() {
   return (
-    <header>
+    <header className={styles.header}>
       <div>
         <h1>
           <span>Empower Parents</span>
