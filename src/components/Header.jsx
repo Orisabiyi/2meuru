@@ -4,7 +4,7 @@ function Header() {
       <div>
         <h1>
           <span>Empower Parents</span>
-          <span>and Elevate Student Success</span>
+          <span> and Elevate Student Success</span>
         </h1>
         <p>
           Track Performance | Monitor Activities | Manage Payments Effortlessly
