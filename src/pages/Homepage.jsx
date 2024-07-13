@@ -1,3 +1,4 @@
+import Benefits from "../components/Benefits";
 import Features from "../components/Features";
 import Header from "../components/Header";
 import Nav from "../components/Nav";
@@ -8,6 +9,7 @@ function Homepage() {
       <Nav />
       <Header />
       <Features />
+      <Benefits />
     </>
   );
 }

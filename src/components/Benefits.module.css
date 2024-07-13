@@ -1,0 +1,45 @@
+.benefit {
+  /* padding: 3rem 6rem; */
+  display: flex;
+  align-items: stretch;
+  justify-content: center;
+}
+
+.benefit div {
+  flex: 1;
+  color: #fff;
+  height: 60rem;
+  text-align: center;
+  background-size: cover;
+  padding: 0 8rem 4rem 8rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.benefit div:nth-of-type(1) {
+  background: url(/images/parent.jpeg) no-repeat center;
+}
+
+.benefit div:nth-of-type(2) {
+  background: url(/images/comms.jpeg) no-repeat center;
+}
+
+.benefit div:nth-of-type(3) {
+  background: url(/images/feddback.jpeg) no-repeat center;
+}
+
+.benefit h3 {
+  font-size: 3rem;
+}
+
+.benefit p {
+  font-weight: 500;
+  font-size: 1.8rem;
+  background: #031779;
+  padding: 1.5rem 0;
+  border-radius: 1rem;
+}
