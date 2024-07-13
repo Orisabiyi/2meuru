@@ -1,0 +1,8 @@
+.feature {
+  background: #02103c;
+  padding: 6rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
