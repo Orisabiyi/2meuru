@@ -9,7 +9,7 @@ function Features() {
         </div>
         <h3>Track Student Scores</h3>
         <p>
-          Parents can access detailed reports of their wards&apos; academi
+          Parents can access detailed reports of their wards&apos; academic
           performance
         </p>
       </figure>

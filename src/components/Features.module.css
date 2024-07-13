@@ -1,8 +1,41 @@
 .feature {
-  background: #02103c;
+  color: #fff;
   padding: 6rem;
+  background: #03207e;
 
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.feature figure {
+  background-color: #031779;
+  padding: 2rem 2rem 4rem 2rem;
+  text-align: center;
+  flex: 0 0 auto;
+  width: 30%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.feature figure:hover {
+  box-shadow: 0 0 1rem rgba(71, 70, 70, 0.5);
+  border-radius: 1.5rem;
+  transition: all 1s;
+}
+
+.feature div {
+  width: 100%;
+  height: auto;
+}
+
+.feature img {
+  display: block;
+  border-radius: 1rem;
+  width: 100%;
+  height: auto;
 }
