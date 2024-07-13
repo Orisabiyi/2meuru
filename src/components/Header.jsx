@@ -13,7 +13,9 @@ function Header() {
         </p>
         <button>Learn More</button>
       </div>
-      <div></div>
+      <div>
+        <img src="/images/hero.png" alt="hero-img" />
+      </div>
     </header>
   );
 }
