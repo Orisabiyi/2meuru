@@ -5,7 +5,7 @@ function Features() {
     <section className={styles.feature}>
       <figure>
         <div>
-          <img src="" alt="" />
+          <img src="images/" alt="" />
         </div>
         <h3>Track Student Scores</h3>
         <p>
