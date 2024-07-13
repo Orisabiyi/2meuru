@@ -1,6 +1,7 @@
 .header {
   min-height: calc(100vh - 12rem);
   padding: 3rem 6rem;
+  color: var(--primary-color);
 
   display: flex;
   align-items: stretch;
@@ -33,7 +34,7 @@
 
 .header span:nth-of-type(1) {
   font-size: 6rem;
-  color: #02103c;
+  color: var(--primary-color-1);
 }
 
 .header span:nth-of-type(2) {
@@ -51,5 +52,5 @@
   font-size: 1.8rem;
   border-radius: 5rem;
   padding: 2rem 8rem;
-  background: #02103c;
+  background: var(--primary-color-1);
 }
