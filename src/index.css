@@ -45,5 +45,5 @@ button:hover {
   transform: scale(1.02);
   transition: all 1s;
   cursor: pointer;
-  background-color: #0d8817ca;
+  background-color: var(--primary-color);
 }
