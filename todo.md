@@ -14,6 +14,6 @@ CTA: Get Started or Learn More
 - Manage Payments: Simplify school fee payments and keep track of all transactions
 
 ## Benefits Section
-- Parent: Stay informed bout your child's education
+- Parent: Stay informed about your child's education
 - For Schools: Stramline communication and administrative tasks
 - For Students: Recieve timely feedback and support
