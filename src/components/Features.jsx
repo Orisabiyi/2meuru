@@ -5,7 +5,7 @@ function Features() {
     <section className={styles.feature}>
       <figure>
         <div>
-          <img src="images/" alt="" />
+          <img src="images/track.jpeg" alt="track-student-image" />
         </div>
         <h3>Track Student Scores</h3>
         <p>
@@ -16,7 +16,7 @@ function Features() {
 
       <figure>
         <div>
-          <img src="" alt="" />
+          <img src="images/monitor-1.jpeg" alt="monitor-student-image" />
         </div>
         <h3>Monitor Activities</h3>
         <p>
@@ -26,7 +26,7 @@ function Features() {
 
       <figure>
         <div>
-          <img src="" alt="" />
+          <img src="images/payments.jpeg" alt="manage-student-payment" />
         </div>
         <h3>Manage Payment</h3>
         <p>Simplify school fee payments and keep track of all transactions</p>
