@@ -9,6 +9,7 @@ function Nav() {
         <li>Benefits</li>
       </ul>
       <button>Download App</button>
+      <div className={styles.menuBar}></div>
     </nav>
   );
 }
