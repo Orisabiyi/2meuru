@@ -3,6 +3,8 @@
   display: flex;
   align-items: stretch;
   justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
 }
 
 .benefit div {
@@ -23,22 +25,33 @@
 .benefit div:nth-of-type(1) {
   background: linear-gradient(
       to right,
-      rgba(0, 0, 0, 0.801),
-      rgba(0, 0, 0, 0.801)
+      rgba(0, 0, 0, 0.501),
+      rgba(0, 0, 0, 0.501)
     ),
     url(/images/parent.jpeg) no-repeat center;
 }
 
 .benefit div:nth-of-type(2) {
-  background: url(/images/comms.jpeg) no-repeat center;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.501),
+      rgba(0, 0, 0, 0.501)
+    ),
+    url(/images/comms.jpeg) no-repeat center;
 }
 
 .benefit div:nth-of-type(3) {
-  background: url(/images/feddback.jpeg) no-repeat center;
+  background: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0.501),
+      rgba(0, 0, 0, 0.501)
+    ),
+    url(/images/feddback.jpeg) no-repeat center;
 }
 
 .benefit h3 {
   font-size: 3rem;
+  transform: translateY(5rem);
 }
 
 .benefit p {
@@ -47,4 +60,23 @@
   background: #031779;
   padding: 1.5rem 0;
   border-radius: 1rem;
+  transform: translateY(15rem);
+}
+
+.benefit div:nth-of-type(1):hover p,
+.benefit div:nth-of-type(1):hover h3 {
+  transform: translatey(0rem);
+  transition: all 1s;
+}
+
+.benefit div:nth-of-type(2):hover p,
+.benefit div:nth-of-type(2):hover h3 {
+  transform: translatey(0rem);
+  transition: all 1s;
+}
+
+.benefit div:nth-of-type(3):hover p,
+.benefit div:nth-of-type(3):hover h3 {
+  transform: translatey(0rem);
+  transition: all 1s;
 }
