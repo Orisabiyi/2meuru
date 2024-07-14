@@ -7,18 +7,6 @@
   padding: 3rem 6rem;
 }
 
-/* .nav::after {
-  content: "";
-  position: absolute;
-  bottom: 0;
-  left: 50%;
-  transform: translateX(-50%);
-
-  width: 90%;
-  height: 0.17rem;
-  background-color: #0d8817;
-} */
-
 .nav h2 {
   font-weight: 400;
 }
@@ -36,4 +24,18 @@
   padding: 1.5rem 4rem;
   border-radius: 3rem;
   background-color: var(--primary-color-1);
+}
+
+@media only screen and (max-width: 37.5em) {
+  .nav {
+    padding: 2rem 3rem;
+  }
+
+  .nav ul {
+    display: none;
+  }
+
+  .nav button {
+    padding: 1rem 2rem;
+  }
 }
