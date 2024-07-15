@@ -65,18 +65,34 @@
 
 .benefit div:nth-of-type(1):hover p,
 .benefit div:nth-of-type(1):hover h3 {
-  transform: translatey(0rem);
+  transform: translateY(0rem);
   transition: all 1s;
 }
 
 .benefit div:nth-of-type(2):hover p,
 .benefit div:nth-of-type(2):hover h3 {
-  transform: translatey(0rem);
+  transform: translateY(0rem);
   transition: all 1s;
 }
 
 .benefit div:nth-of-type(3):hover p,
 .benefit div:nth-of-type(3):hover h3 {
-  transform: translatey(0rem);
+  transform: translateY(0rem);
   transition: all 1s;
+}
+
+@media only screen and (max-width: 37.5em) {
+  .benefit {
+    flex-direction: column;
+  }
+
+  .benefit div {
+    flex: 0 0 auto;
+    /* height: 100rem; */
+  }
+
+  .benefit p,
+  .benefit h3 {
+    transform: translateY(0);
+  }
 }
