@@ -8,7 +8,11 @@ function Nav() {
         <li>Features</li>
         <li>Benefits</li>
       </ul>
-      <button>Download App</button>
+      <button>
+        <a href="https://drive.google.com/file/d/103YfeYZzqM1wEgzX8cFRGan7iEl1Au71/view?usp=drivesdk">
+          Download App
+        </a>
+      </button>
       <div className={styles.menuBar}></div>
     </nav>
   );
