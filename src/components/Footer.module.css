@@ -1,6 +1,21 @@
 .footer {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-
+  color: var(--neutral-color);
   padding: 3rem 6rem;
+  background: var(--primary-color);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer h1 {
+  font-size: 3rem;
+}
+
+.footer button {
+  background: var(--neutral-color);
+}
+
+.footer button:hover {
+  background: var(--neutral-color);
 }
