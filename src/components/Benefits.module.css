@@ -91,6 +91,10 @@
     /* height: 100rem; */
   }
 
+  .benefit p {
+    padding: 1.5rem;
+  }
+
   .benefit p,
   .benefit h3 {
     transform: translateY(0);
