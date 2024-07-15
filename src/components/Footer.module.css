@@ -13,6 +13,11 @@
 }
 
 .footer button {
+  font-size: 1.6rem;
+  font-weight: 600;
+  border-radius: 50rem;
+  padding: 1.5rem 3rem;
+  color: var(--primary-color);
   background: var(--neutral-color);
 }
 
