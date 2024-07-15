@@ -31,6 +31,7 @@
   height: 0.2rem;
   background: #000;
   position: relative;
+  display: none;
 }
 
 .menuBar::before,
@@ -61,5 +62,9 @@
 
   .nav button {
     display: none;
+  }
+
+  .menuBar {
+	  display: block;
   }
 }
